@@ -1,4 +1,5 @@
-#include<stdio.h>
+/*#include<stdio.h>
+//optimal
 int xor(int n){
     if(n%4==1)
     return 1;
@@ -17,4 +18,18 @@ int main(){
     k=l^r;
     printf("%d",k);
     return 0;
-}
+}*/
+
+/*
+BRUTEFORCE
+#include <stdio.h>
+
+int main() {
+   int l,u,r=0;
+   scanf("/%d",&n);
+   for(int i=l;i<=u;i++){
+       r=r^i;
+   }
+   printf("%d",r);
+    return 0;
+}*/
